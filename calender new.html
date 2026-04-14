@@ -4,8 +4,16 @@
     <meta name="viewport" content="width =device-width, initial-scale=1.0">
     <title>New Calendar</title>
     <style>
+      .a{
+          background:linear-gradient(to right,#97a0e2,#e88a8a);
+          border:4px solid black;
+          font-size:25px;
+          font-family:cursive;
+          margin:180px;
+        }
+        
       .top{background-color:#e52b2bbc;
-      color:#22004a;
+      color:#16002f;
       font-family:Courier New ; 
       font-weight:bold;
       font-size:30px;
@@ -29,22 +37,36 @@
         border-style:bold;
       }
       .top3{
-        background-color:#f8b0598d;
-        margin:20px 400px;
+        background:linear-gradient(#790b79,#ff7e94,#f3a80c);
+        margin:20px 100px;
         border:20px solid #3f1324;
         border-style:ridge;
+        width:600px;
       }
       .top4{
         background:linear-gradient(to right, #00afffb0, #ffc300c2,#8000ff70);
         padding:15px;
       }
       .top5{
-        background:linear-gradient(to right,#5454ff,pink,brown);
+        background:linear-gradient(to right,#5454ff,pink,#862727);
         font-family:Georgia;
+        border:2px double black;
       }
+      body{
+        animation-name:x;
+        animation-delay:3s;
+        animation-duration:5s;
+        animation-iteration-count:infinite;
+        transition-timing-function:ease;
+        background:linear-gradient(pink,purple);
+      }
+      @keyframes x{
+        0%{background:linear-gradient(to right,pink,brown); }
+      
     </style>
 </head>
 <body>
+  <a style="font-size:30px; margin:180px;font-family:Courier New ;"><b>&#127809;MY NEW UPDATED CALENDAR&#127809;</b></a>
   <div class="top3">
       <h1 class="top4"> 
       <marquee scrollamount="15" direction="right";> &#127881;WELCOME TO MY WEBSITE &#9786;&#127882;
@@ -115,5 +137,6 @@
         </marquee>
           </div>
       </div>
+      <a class="a">&#127804;<b>THANKS FOR VISITING MY WEBPAGE.</b></a>
 </body>
 </html>
