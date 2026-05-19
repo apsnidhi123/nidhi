@@ -5,44 +5,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to nidds website.</title>
     <style>
-        button{font-size:20px;
-        background-color:rgb(248, 198, 48);
-        height:50px;}
-        body{
+       .b{
+        font-size:20px;
+        height:50px;
+        text-align: center;
+        font-weight:bold;
+        }
+       fieldset
+        {
         animation-name:x;
         animation-delay:3s;
-        animation-duration:5s;
+        animation-duration:10s;
         animation-iteration-count:infinite;
         transition-timing-function:ease;
         background:linear-gradient(to right,#209ddf,#abebe1,#5356c6);
         }
-        @keyframes x{
-        0%{background:linear-gradient(#ffa800,#dda0a0,#fe6f5c,#e5c196,#fa7189); }
+        @keyframes x
+        {
+        0%{background:linear-gradient(#ffa800,#dda0a0,#fe6f5c,#e5c196,#fa7189);}
         }
-        a{
+        a
+        {
         text-decoration-line:none;
+        padding:80px;
         }
+        .nidds{
+          font-size: 20px;
+          width:800px;
+          margin-left: 60px;
+          border: 10px double black;
+        }
+        h1, h2{
+          font-family: Courier New;
+          text-align:center;
+          font-weight: bold;
+        }
+        .h{
+          font-family: Courier New;
+          text-align: center;
+          font-weight: bold;
+          font-size: 30px;
+        }
+        .nidds2{
+          font-weight:bold;
+          font-size: 30px;
+          font-family: Georgia;
+        }
+        p{
+          text-align: justify;
+        }
+        body{
+          background:linear-gradient(to left, pink, #8d59aa);
+        }
+        p{padding-left:30px;}
     </style>
 </head>
 <body>
-    <div style="text-align:center; font-size:20px;">
-<h1 >&#127881; WELCOME TO MY WEBSITE  &#x1f973;</h1>
-<button><b>&#10056; &#128187;KINDLY OPEN IN DESKTOP MODE/DEVICES FOR BETTER RESULT.&#128187; &#128171; &#10056;</b></button>
-    <h2 style="font-family:cursive;">HELLO GUYS &#127804;</h2>
-    <a class="top">CLICK HERE&#128071;</a><br>
-    <a href="calender.html">&#128073;my calendar</a><br><hr>
-    <a class="top">CLICK HERE FOR MY NEW CALENDAR&#128071;</a><br>
-    <a href="calender new.html">&#128073;my new updated calendar</a><br><hr>
-    <a href="marquee new.html">Go to different world in one click.&#128516; </a><br><br>
-    <a class="top">CLICK HERE FOR RESTURANT MENU&#128071;&#10025;</a><br>
-    <a href="Resturant.html">&#10026;my project to make(restaurant menu card)</a><br><hr>
-        
-    <a class="top"><b><i>&#128150; HOPE YOU LIKE THIS.&#128276;</i></b></a><br>
-    <a><b><i>THANKS FOR VISITING &#128519;</i></b></a><hr>
-   <marquee scrollamount="10" direction="right">
-    <a class="top"><b>&#10024; VISIT AGAIN SOON.&#127775;</b></a></marquee> 
-    <br>
-    <marquee scrollamount="10" direction="left"><a>&#10024; YOU'RE WELCOME ANYTIME.&#128276;</b></a></marquee><hr>
-    </div>
+  <fieldset class="nidds">
+      <h1>&#10026; HELLO GUYS &#127804;<br>&#127881; WELCOME TO MY WEBSITE &#x1f973;</h1>
+<p class="b">&#10056; &#128187;KINDLY OPEN IN DESKTOP MODE FOR BETTER RESULT. &#128187; &#10056;</p>
+  <div>
+<a href="About me.html">&#10031; About</a>
+<a href="#projects">&#10031; Projects</a>
+<a href="#contact">&#10031; Contact</a>
+  </div><hr>
+<h2>&#10024; NIDHI KUMARI &#128515; &#128218;</h2>
+<section id="projects">
+<p class="nidds2">&#10051; MY PROJECTS:</p>
+<p>I am a bca student interested in web development, programming, and problem solving.<br>Projects that show what I can build.</p>
+</section>
+<hr>
+<p class="h">Project 1: Calendar</p>
+<p>&#10055; TO OPEN CALENDAR &#10025;</p>
+<a href="calender.html">&#128073;Click here April Calendar</a>
+<p>&#10055; TO OPEN MY NEW UPDATED CALENDAR (HTML+CSS)</p>
+<a href="calender new.html">&#128073;Click here my new updated calendar (html+css)</a><hr>
+<p class="h">Project 2: Restaurant Menu Card</p>
+<p>&#10055; MY PROJECT TO MAKE RESTAURANT MENU &#10025;</p>
+<a href="Resturant.html">&#128073;Click here to open my restaurant menu card</a><hr>
+<p class="h">Project 3: Website of restaurant</p>
+<p>&#10055; MY PROJECT TO MAKE A WEBSITE OF RESTAURANT IN YOUR CITY </p>
+<a href="web.html">&#128073;Click here to open webpage of restaurant</a><hr>
+<p>&#10055; IF YOU WANT TO OPEN ANY APP IN ONE CLICK &#128516;</p>
+<a href="marquee new.html">&#128073; Click Here (html+css)</a><hr>
+<section id="contact">
+<p class="nidds2">&#10051; CONTACT:</p></section>
+<p class="nidds1">I hope you like this website. You are welcome anytime, and I would be happy to share more projects here in the future.<br><br>Visit again
+Thank you for spending time on my website. I appreciate your visit.<br><br>You can continue exploring from the Projects section or connect through any contact details you add later.</p>
+<p class="h"><i>&#128150; HOPE YOU LIKE THIS. &#128276;<br>THANKS FOR VISITING &#128519;</i></p><hr>
+<marquee scrollamount="10" direction="right">
+  <p><b>&#10024; VISIT AGAIN SOON. &#127775;</b></p>
+</marquee> 
+<marquee scrollamount="10" direction="left">
+  <a><b>&#10024; YOU'RE WELCOME ANYTIME. &#128276;</b></a>
+</marquee><hr>
+</fieldset>
 </body>
 </html>
