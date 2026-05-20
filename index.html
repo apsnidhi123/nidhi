@@ -5,100 +5,199 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to nidds website.</title>
     <style>
+    header{
+      background: linear-gradient( rgba(251,251,251,0.6), rgba(255,255,255,0.35));
+      border-radius: 10px;
+    }
        .b{
-        font-size:20px;
+        font-size:25px;
         height:50px;
-        text-align: center;
         font-weight:bold;
+        text-align: center;
+        color: #bb1178;
         }
        fieldset
         {
-        animation-name:x;
-        animation-delay:3s;
-        animation-duration:10s;
-        animation-iteration-count:infinite;
-        transition-timing-function:ease;
-        background:linear-gradient(to right,#209ddf,#abebe1,#5356c6);
-        }
-        @keyframes x
-        {
-        0%{background:linear-gradient(#ffa800,#dda0a0,#fe6f5c,#e5c196,#fa7189);}
-        }
-        a
-        {
-        text-decoration-line:none;
-        padding:80px;
-        }
-        .nidds{
           font-size: 20px;
           width:800px;
           margin-left: 60px;
           border: 10px double black;
+        animation-name:x;
+        animation-delay:1s;
+        animation-duration:6s;
+        animation-iteration-count:infinite;
+        transition-timing-function:ease;
+        background:linear-gradient(to right,#1ab1ab,#abddeb,#5356c6);
         }
-        h1, h2{
+        @keyframes x
+        {
+        0%{background:linear-gradient(#dda0a0,#fe6f5c,#e5c196,#fa7189);}
+        }
+        a
+        {
+        text-decoration-line:none;
+        padding:40px;
+        }
+        h1{
           font-family: Courier New;
           text-align:center;
           font-weight: bold;
+          font-size: 45px;
+         padding-top:30px;
         }
         .h{
           font-family: Courier New;
           text-align: center;
           font-weight: bold;
-          font-size: 30px;
+          font-size: 35px;
         }
         .nidds2{
           font-weight:bold;
           font-size: 30px;
           font-family: Georgia;
         }
-        p{
-          text-align: justify;
+        .nidds3{
+          background: linear-gradient( rgba(255, 242, 253,0.6), rgba(251, 207, 232,0.5));
+          padding:30px;
+      border-radius: 20px;
+          border:5px double black;
         }
         body{
           background:linear-gradient(to left, pink, #8d59aa);
         }
-        p{padding-left:30px;}
+        p{padding-left:30px;
+          font-family: Courier New;
+          font-weight: bold;
+          font-size: 30px;
+        }
+        img
+        {border-radius:10px 10px 10px 10px;
+          padding-left:25px;
+        }
+        nav{
+          font-size: 30px;
+          font-family: Courier New;
+          font-weight: bold;
+        }
+        footer{
+          font-size: 30px;
+          font-family: Monospace;
+          font-weight: bold;
+          text-align: center;
+        }
+        .button{
+          font-family: Courier New;
+          font-weight: bold;
+          font-size: 25px;
+          background-color: red;
+          color: white;
+          border-radius: 10px;
+          padding:10px;
+          border: none;
+        }
+        .button:hover{
+          background-color: #ffc4c4;
+          color: red;
+          font-weight: bold;
+          font-size: 35px;
+        }
+        .button2{
+          font-family: Courier New;
+          font-weight: bold;
+          font-size: 25px;
+          background-color: black;
+          color: white;
+          border-radius: 10px;
+          padding:10px;
+          }
+        .button2:hover{
+          background-color: white;
+          color: black;
+          font-size: 35px;
+        }
     </style>
 </head>
 <body>
-  <fieldset class="nidds">
-      <h1>&#10026; HELLO GUYS &#127804;<br>&#127881; WELCOME TO MY WEBSITE &#x1f973;</h1>
-<p class="b">&#10056; &#128187;KINDLY OPEN IN DESKTOP MODE FOR BETTER RESULT. &#128187; &#10056;</p>
-  <div>
+  <fieldset>
+    <header>
+      <div style="display:flex;">
+          <div><img src="c10.jpg" style="border-radius:50%; width:300px; height:300px; padding-top:20px; padding-right:20px;"></div>
+  <div style="padding-right:40px;"><h1>&#9884; WELCOME TO MY WEBPAGE &#9884; </h1>
+
+<p class="b">&#10056;&#128187;KINDLY OPEN IN DESKTOP MODE FOR BETTER RESULT.&#128187;</p></div>
+      </div>
+  <nav>
 <a href="About me.html">&#10031; About</a>
 <a href="#projects">&#10031; Projects</a>
 <a href="#contact">&#10031; Contact</a>
-  </div><hr>
-<h2>&#10024; NIDHI KUMARI &#128515; &#128218;</h2>
+  </nav>
+  <br>
+  </header>
 <section id="projects">
-<p class="nidds2">&#10051; MY PROJECTS:</p>
-<p>I am a bca student interested in web development, programming, and problem solving.<br>Projects that show what I can build.</p>
+<p class="nidds2">&#10051; MY PROJECTS&#128187;:</p>
+<img src="c3.jpg" width="360px" height="500px">
+<img src="c2.jpg" width="360px" height="500px">
+<p><b>~ I am a bca student interested in web development, programming, and problem solving.<br>~ Projects that show what I can build.</b></p>
 </section>
 <hr>
-<p class="h">Project 1: Calendar</p>
+<div class="nidds3">
+<p class="h">Project 1: April Calendar</p>
+<div class="nidds3">
 <p>&#10055; TO OPEN CALENDAR &#10025;</p>
 <a href="calender.html">&#128073;Click here April Calendar</a>
-<p>&#10055; TO OPEN MY NEW UPDATED CALENDAR (HTML+CSS)</p>
-<a href="calender new.html">&#128073;Click here my new updated calendar (html+css)</a><hr>
+<p>&#10055; TO OPEN MY NEW UPDATED CALENDAR (HTML+CSS) &#10025;</p>
+<a href="calender new.html">&#128073;Click here my new updated calendar (html+css)</a><br><br>
+</div><hr>
 <p class="h">Project 2: Restaurant Menu Card</p>
+<div class="nidds3">
 <p>&#10055; MY PROJECT TO MAKE RESTAURANT MENU &#10025;</p>
-<a href="Resturant.html">&#128073;Click here to open my restaurant menu card</a><hr>
+<a href="Resturant.html">&#128073;Click here to open my restaurant menu card</a><br><br>
+</div><hr>
 <p class="h">Project 3: Website of restaurant</p>
-<p>&#10055; MY PROJECT TO MAKE A WEBSITE OF RESTAURANT IN YOUR CITY </p>
-<a href="web.html">&#128073;Click here to open webpage of restaurant</a><hr>
+<div class="nidds3" style="display: flex;">
+  <div>
+ <img src="c6.jpg" width="300px" height="500px" style="padding:0px;"> </div>
+<div style="padding-left:10px;">
+<p>&#10055; MY PROJECT TO MAKE A WEBSITE OF RESTAURANT IN YOUR CITY &#10025;
+</p>
+<a href="web.html">&#128073;Click here (html+css)</a><hr>
 <p>&#10055; IF YOU WANT TO OPEN ANY APP IN ONE CLICK &#128516;</p>
-<a href="marquee new.html">&#128073; Click Here (html+css)</a><hr>
-<section id="contact">
-<p class="nidds2">&#10051; CONTACT:</p></section>
-<p class="nidds1">I hope you like this website. You are welcome anytime, and I would be happy to share more projects here in the future.<br><br>Visit again
-Thank you for spending time on my website. I appreciate your visit.<br><br>You can continue exploring from the Projects section or connect through any contact details you add later.</p>
-<p class="h"><i>&#128150; HOPE YOU LIKE THIS. &#128276;<br>THANKS FOR VISITING &#128519;</i></p><hr>
-<marquee scrollamount="10" direction="right">
+<a href="marquee new.html"> &#128073;  Click Here (html+css)</a><br><br>
+</div></div>
+</div>
+<section id="contact"><hr>
+<p class="nidds2">&#10051; CONTACT INFO&#128242;:</p>
+</section>
+<p>I hope you like this website. You are welcome anytime, and I would be happy to share more projects here in the future.<br><br>Visit again
+Thank you for spending time on my website. I appreciate your visit.<br><br>You can continue exploring from the Projects section or connect through any contact details you add later.<br><br>
+  <div style="display:flex;">
+    <img src="c11.jpg" width="360px" height="400px">
+    <img src="c12.jpg" width="360px" height="400px">
+    </div>
+   <p>&#10056; Email Id:apsnidhikumari@gmail.com</p>
+  <p class="h">&#128241;You Can Follow Me On :</p>
+  <div style="padding-left:130px">
+    <a href="https://youtube.com/@timetohavefun2468?si=4XPOzD5Q0zN4FZra">&#10154;
+  <button class="button">YOUTUBE</button>
+  </a>
+  <a href="https://share.google/I4xX46VkCb6D6ynZi">&#10154; 
+  <button class="button2">GITHUB</button>
+  </a>
+  </div>
+  <p class="h"><i>&#128150; HOPE YOU LIKE THIS. &#128276;<br>THANKS FOR VISITING &#128519;</i></p>
+  <hr>
+<marquee scrollamount="15" direction="right">
   <p><b>&#10024; VISIT AGAIN SOON. &#127775;</b></p>
 </marquee> 
-<marquee scrollamount="10" direction="left">
-  <a><b>&#10024; YOU'RE WELCOME ANYTIME. &#128276;</b></a>
+<marquee scrollamount="17" direction="left">
+  <p>&#10024; YOU'RE WELCOME ANYTIME. &#128276;</p>
 </marquee><hr>
+    <footer>
+      Made by &#10084;&#10154; — Nidhi Kumari&#127809;
+      <br>
+    </footer>
+    <marquee scrollamount="17" direction="right">~ Drop me a message on my socials.</marquee><br><marquee scrollamount="17" direction="left">
+© 2026 Crafted with ♥Nidhi and CSS.</marquee><br>
 </fieldset>
 </body>
 </html>
