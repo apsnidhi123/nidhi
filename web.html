@@ -3,123 +3,233 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+   <title>The Oriental fusion</title>
    <style>
    body{
      background-color: #f6e4fd;
    }
-     fieldset{
+     fieldset {
        font-weight: bold;
        width:800px;
        background-color:#d8b6f4;
        border:4px solid black;
        margin-left:60px;
+       padding: 20px;
      }
-     h1{
+     .nav{
+       padding:20px 0px;
+       border: 2px solid black;
+       border-radius: 20px;
+       background:linear-gradient(#d483d3,#c9a4d4);
+     }
+     h1 {
        text-align:center;
        font-family: cursive;
-       font-size: 70px;
+       font-size: 100px;
+       font-weight:bold;
      }
-     a{
+     a {
        text-decoration: none;
        padding-left:45px;
        font-size: 30px;
      }
-     .a{
-       font-family: Courier New;
+     .a {
+       font-family: 'Courier New',Courier, monospace;
        padding-left:20px;
-       font-size: 40px;
+       font-size: 50px;
        font-weight: bold;
+       margin:15px;
      }
-     .a1{
-       font-family: Courier New;
+     .a1 {
+       font-family: 'Courier New',Courier, monospace;
        padding-left: 20px;
        font-weight: bold;
-       font-size: 30px;
+       font-size: 45px;
        text-decoration: none;
+       margin: 20px;
      }
-     .b{
-        font-family: Georgia;
-       padding-left: 20px;
+     .b {
+       font-family: Georgia, serif;
        font-weight: bold;
-       font-size: 40px;
+       font-size: 60px;
+       display: inline-block;
+       padding: 20px 60px;
+       border: 5px double black;
+       background: linear-gradient(pink, #8b5fbf);
+       border-radius: 10px;
+       margin: 30px 0;
      }
+     img {
+       display: block;
+       margin: 15px 0;
+       border: 3px solid black;
+       border-radius: 15px;
+     }
+     hr {
+       border: 2px solid #8b5fbf;
+       margin: 20px 0;
+     }
+     .nidds{
+       background: linear-gradient(rgba(255, 242, 253,0.6), rgba(251, 207, 232,0.5));
+       border: 2px solid #460080;
+       border-radius: 20px;
+       display: inline-block;
+       padding: 10px 40px;
+       font-family: 'Courier New',Courier, monospace;
+       font-size: 60px;
+       font-weight: bold;
+       margin: 20px;
+     }
+     .new{
+       background-color:#c676c6; border:4px solid black;
+       padding: 0px 20px;
+     }
+     .button{
+       font-family: Courier New;
+          font-weight: bold;
+          font-size: 40px;
+          background-color: green;
+          color: white;
+          border-radius: 10px;
+          padding:10px;
+          border: none;
+     }
+     .button:hover{
+          background-color: #6cb0ce;
+          color: black;
+          font-weight: bold;
+          font-size: 45px;
+        }
+     .button2{
+       font-family: Courier New;
+          font-weight: bold;
+          color: black;
+          font-size: 40px;
+          background-color: #d0d0d0;
+          border-radius: 10px;
+          padding:10px;
+          border: none;
+     }
+     .button2:hover{
+          background-color: #002c07;
+          color: #afd6b1;
+          font-size: 45px;
+        }
    </style>
 </head>
 <body>
    <fieldset>
-     <img src="o2.jpg" width="800px"; height="600px";>
-     <h1>The Oriental Fusion</h1>
-     <div>
-       <a href="#home";>&#10031; HOME</a>
-       <a href="#menu">&#10031; MENU </a>
+     <img src="o2.jpg" width="800" height="600">
+     <nav class="nav">
+       <h1>The Oriental Fusion</h1>
+       <a href="#home">&#10031; HOME</a>
+       <a href="#menu">&#10031; MENU</a>
        <a href="#about">&#10031; ABOUT</a>
-       <a href="#contact">&#10031; CONTACT</a>
-     </div>
+       <a href="#contact">&#10031; CONTACT</a><br><br>
+     </nav>
      <hr>
-     <div>
-       <section id="home">
-       <h2 class="a">&#10051; Welcome to the Oriental fusion, a warm restaurant concept with handcrafted dishes, elegant interiors, and a menu built around fresh ingredients, spice, and comfort.
-       </h2>
-       <div class="a1">
-      TIMING:-
-      <ul>
-      <li>(Monday	8am–11pm)</li>
-      <li>(Tuesday	8am–11pm)</li>
-      <li>(Wednesday	8am–11pm)</li>
-      <li>(Thursday	8am–11pm)</li> 
-      <li>(Friday	8am–11pm)</li>
-      <li>(Saturday	8am–11pm)</li> 
-      <li>(Sunday	10:30am–10pm)</li>
-      </ul>
-</div>
-     </div><br>
-     <hr>
+     <section id="home">
+       <h2 class="a">&#10051; Welcome to the Oriental fusion, a warm restaurant concept with handcrafted dishes, elegant interiors, and a menu built around fresh ingredients, spice, and comfort.</h2>
+       <div class="a1" style="background-color: #e8d5f5; border-radius:20px; border: 2px solid black;"><br>
+         <div style="padding-left:50px; font-size:50px;">TIMING:-</div>
+         <ul>
+           <li>(Monday 8am–11pm)</li>
+           <li>(Tuesday 8am–11pm)</li>
+           <li>(Wednesday 8am–11pm)</li>
+           <li>(Thursday 8am–11pm)</li>
+           <li>(Friday 8am–11pm)</li>
+           <li>(Saturday 8am–11pm)</li>
+           <li>(Sunday 10:30am–10pm)</li>
+         </ul>
+       </div>
+       <hr>
      </section>
-     <section id="menu">
-     <div>
-       <p class="b">&#10036; MENU CARD</p>
-       <img src="o3.jpg" width="800px">
-       <hr>
-       <p class="a">&#10055; MAIN COURSE</p>
-       <p class="a1">&#10023; Simple food, soulful satisfaction — bhaat dal feels like home.<br>&#10023; The heart of Indian meals lies in bhaat dal.</p>
-       <img src="o1.jpg" width="800px"><br><hr>
-       <p class=a1>&#10023; “A memorable meal is not only about flavor, but also about how the room makes you feel.”</p>
-       <img src="o4.jpg" width="800px">
-     </div>
+     <img src="o8.jpg" width="800" height="800">
      <hr>
-     <div>
-       <p class="a">&#10055; BEVERAGE</p>
+     <section id="menu">
+       <div style="text-align: center;">
+         <p class="b">&#10036; MENU CARD</p>
+       </div>
+       <img src="o3.jpg" width="800">
+       <hr>
+       <div style="text-align: center;">
+         <p class="nidds">&#10055; MAIN COURSE</p>
+       </div>
+       <p class="a1">&#10023; Simple food, soulful satisfaction — bhaat dal feels like home.<br>&#10023; The heart of Indian meals lies in bhaat dal.</p>
+       <img src="o1.jpg" width="800">
+       <hr>
+       <p class="a1">&#10023; "A memorable meal is not only about flavor, but also about how the room makes you feel."</p>
+       <img src="o11.jpg" width="800" height="1000">
+       <hr>
+       <img src="o4.jpg" width="800">
+       <hr>
+       <div style="text-align: center;">
+         <p class="nidds">&#10055; BEVERAGE</p>
+       </div>
        <p class="a1">&#10023; Taste the warmth of soups - flavors in every sip.<br>&#10023; Soups — simple, soothing, satisfying.<br>&#10023; Veg or non-veg, a good soup always warms the soul.</p>
-       <img src="o5.jpg" width="800px"><hr>
-       </section>
-       <section id="about">
-       <div>
-         <p class="b">&#10036; ABOUT</p>
+       <img src="o5.jpg" width="800">
+     </section>
+     <section id="about">
+       <hr>
+       <div class="new">
+         <div style="text-align: center;"><br>
+      <p class="b">&#10036; ABOUT</p>
+         </div>
          <p class="a1">Location: Bharao par, Ranchi Road, Opposite the Jila Parishad Market, Bihar Sharif, Nalanda, Bihar(803101).<br>
-         <br> Cuisine: Offers a rich mix of Indo-Chinese dishes (such as Schezwan Noodles, Chicken Lollipop, and Veg Sizzler Fried Rice) and standard Indian meals.<br>
-         <br> Facilities: The property also functions as a hotel, making it a convenient stay for travelers visiting the area.<br>
-         <br> Ambiance: Features comfortable dining spaces suitable for groups, family dinners, and casual gatherings.</p>
-       </div><hr>
-       </section>
-       <br>
-       <section id="contact">
-       <p class="b">&#10036; CONTACT INFO</p>
-       <p class="a">Contact Numbers: +91-9798651550, +91-9263478108<br>
-       <br> Address: Ranchi Road, Opp. Jila Parishad Market, Bharao Par, Bihar Sharif, Nalanda, Bihar 803101<br>
-       <br> Hours of Operation: Monday to Sunday, 9:00 AM to 11:00 PM </p>
-       <p class="a1">
-         You can find more information about the restaurant or order online through <a href="https://www.zomato.com/tr/bihar-sharif/the-oriental-fusion-bihar-sharif-locality" class="a1">Zomato</a> or<a href="https://www.swiggy.com/city/biharsharif/the-oriental-fusion-garhpar-rest1076398" class="a1">Swiggy</p>
-       <a href="https://maps.app.goo.gl/guGq8dVubfTwUmTB9" class="a1">Click here for LOCATION INFO:
-       </a>
+         <br>Cuisine: Offers a rich mix of Indo-Chinese dishes (such as Schezwan Noodles, Chicken Lollipop, and Veg Sizzler Fried Rice) and standard Indian meals.<br>
+         <br>Facilities: The property also functions as a hotel, making it a convenient stay for travelers visiting the area.<br>
+         <br>Ambiance: Features comfortable dining spaces suitable for groups, family dinners, and casual gatherings.</p>
+       </div>
        <hr>
-       <p class="b"> THANKS FOR VISITING</p>
-       <p class="a1"> ~Visit again soon! </p>
-       <img src="o6.jpg" width="800px" height="1000px">
+       <img src="o6.jpg" width="800" height="1000">
        <hr>
-       </section>
-       <br>
-     </div>
+       <img src="o7.jpg" width="800" height="1000">
+       <hr>
+       <img src="o13.jpg" width="810" height="850">
+       <hr>
+     </section>
+     <section id="contact">
+       <div class="new"><br>
+         <div style="text-align: center;">
+           <p class="b">&#10036; CONTACT INFO</p>
+         </div>
+         <p class="a">Address: Ranchi Road, Opp. Jila Parishad Market, Bharao Par, Bihar Sharif, Nalanda, Bihar 803101<br><br>
+         Contact Numbers:<br> +91-9798651550,<br> +91-9263478108<br>
+         <br>Hours of Operation: Monday to Sunday, 9:00 AM to 11:00 PM</p><br>
+         <p class="a1">You can find more information about the restaurant or order online through zomato or swiggy.</p><br>
+         <p class="a1">&#10036; IF YOU WANT TO ORDER FOOD ONLINE&#128241; THEN CLICK ON THE LINK GIVEN BELOW:-</p>
+         <a href="https://www.zomato.com/tr/bihar-sharif/the-oriental-fusion-bihar-sharif-locality" class="a1">&#128073; To order from Zomato.<br></a>
+         <a href="https://www.swiggy.com/city/biharsharif/the-oriental-fusion-garhpar-rest1076398" class="a1">&#128073; To order from Swiggy.<br></a><br>
+         <p class="a1">&#10036; CLICK ON THE LINK GIVEN BELOW TO SEE THE LOCATION ON GOOGLE MAP.</p>
+         <a href="https://maps.app.goo.gl/guGq8dVubfTwUmTB9" class="a1">&#128073; For LOCATION INFO:<br><br></a>
+    <div style="padding-left:90px; margin-bottom:40px;">
+    <a href="https://wa.me/919263478108?partnertoken=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGFjZWlkIjoiQ2hJSk1fOWZoMlR6OGprUlctZ0d5N1dEQW1FIiwiaXNzIjoiR29vZ2xlIiwiZXhwIjoxNzgxMzU0MjM0LCJ1cmwiOiJodHRwczovL3dhLm1lLzkxOTI2MzQ3ODEwOCIsImlhdCI6MTc4MTM1MzkzNH0.fdH7iyqNEQcLoGKgrvlmyEXl6-iHnh1UIfkR9hSpgIDn1mXsnyS_eLQSA2PYb7LiXAn8u3Yr8fjL7tP_evNw9w">&#10154;
+  <button class="button">WHATSAPP</button>
+  </a>
+  <a href="https://share.google/uaGttO6S0iAosRWRh">&#10154; 
+  <button class="button2">SHARE</button>
+  </a>
+  </div>
+       </div>
+       <hr>
+       <div style="display:flex; justify-content: center;">
+         <img src="o9.jpg" width="400" height="500">
+         <img src="o10.jpg" width="400" height="500">
+       </div>
+       <hr>
+       <marquee scrollamount="17">
+         <div style="text-align: center;">
+           <p class="b">THANKS FOR VISITING.</p>
+         </div>
+       </marquee>
+       <marquee scrollamount="17" direction="left">
+  <p class="a1">&#10024; YOU'RE WELCOME ANYTIME. &#128276;</p>
+  <br><p class="a1">Contact Numbers: +91-9263478108</p>
+</marquee><hr>
+       <marquee scrollamount="20" direction="right">
+         <p class="a1">&#127881; ~Visit again soon!&#10024;<br> ~@orientalfusion.com</p>
+       </marquee>
+     </section>
    </fieldset>
 </body>
 </html>
